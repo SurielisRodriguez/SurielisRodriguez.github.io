@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image"
+    href=https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cce65a10-b101-437c-bf20-6697fc4fc4c0/d5wof18-c7f5ea09-1c86-4450-997b-82caaaa2231f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NjZTY1YTEwLWIxMDEtNDM3Yy1iZjIwLTY2OTdmYzRmYzRjMFwvZDV3b2YxOC1jN2Y1ZWEwOS0xYzg2LTQ0NTAtOTk3Yi04MmNhYWFhMjIzMWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BLVvLqex9Lc7D4O2u1ucaAk8OKrhZYCbABtQAkVsZyU>
+    <link rel="stylesheet" href="treasurehunt.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="game-name">The Last Click</h1>
+    <h2>Game Summary</h2>
+    <p> "The Last Click is based on the popular video game The Last of Us. Players must navigate through a post-apocalyptic world by clearing a grid while avoiding to click on any infected or hostile creatures that may lurk in the shadows.
+        When the game starts the player will then be presented with a grid of squares that are will contain useless bricks, or the cure to save yourself. As the player progresses through the game, they might encounter obstacles such as Clickers or Bloaters that will explode and end the game if clicked on.
+        It the player's task to find the cure without getting infected."</p>
+    <h2>Rules:</h2>
+    <div id="ruleset">
+    <p>
+        <ul> 
+            <li>Click the boxes to try and survive.</li>
+            <li> If you get infected you lose.</li>
+            <li> Find the cure to survive.</li>
+        </ul>
+    </p>
+    </div>
+    <div id="doorgrid">
+    <table>
+        <tr>
+            <td id="0" onclick = "treasure(0)">🚪</td>
+            <td id="1" onclick = "treasure(1)">🚪</td>
+            <td id="2" onclick = "treasure(2)">🚪</td>
+        </tr>
+        <tr>
+            <td id="3" onclick = "treasure(3)">🚪</td>
+            <td id="4" onclick = "treasure(4)">🚪</td>
+            <td id="5" onclick = "treasure(5)">🚪</td>
+        </tr>
+        <tr> 
+            <td id="6" onclick = "treasure(6)">🚪</td>
+            <td id="7" onclick = "treasure(7)">🚪</td>
+            <td id="8" onclick = "treasure(8)">🚪</td>
+        </tr>
+    </table>
+    </div>
+    <footer>&copy; Justin & Surielis & Mcarthur</footer>
+</body>
+<script type="text/javascript" src="treasurehunt.js"></script>
+<button type="button" onclick="location.reload()">Restart Game</button>
+</html>
+
+
+
